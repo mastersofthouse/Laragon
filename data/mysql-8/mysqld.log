@@ -180,3 +180,7 @@ mysqld: Table 'mysql.plugin' doesn't exist
 2022-10-09T20:09:01.770758Z 7 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.15).
 2022-10-09T20:09:01.771732Z 0 [System] [MY-013105] [Server] C:\Laragon\bin\mysql\mysql-8.0.15-winx64\bin\mysqld: Normal shutdown.
 2022-10-09T20:09:02.745826Z 0 [System] [MY-010910] [Server] C:\Laragon\bin\mysql\mysql-8.0.15-winx64\bin\mysqld: Shutdown complete (mysqld 8.0.15)  MySQL Community Server - GPL.
+2022-10-09T23:07:52.066399Z 0 [Warning] [MY-010097] [Server] Insecure configuration for --secure-file-priv: Current value does not restrict location of generated files. Consider setting it to a valid, non-empty path.
+2022-10-09T23:07:52.067687Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2022-10-09T23:07:52.067853Z 0 [System] [MY-010116] [Server] C:\Laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 4092
+2022-10-09T23:07:52.347925Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
