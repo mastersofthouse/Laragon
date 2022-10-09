@@ -184,3 +184,24 @@ mysqld: Table 'mysql.plugin' doesn't exist
 2022-10-09T23:07:52.067687Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
 2022-10-09T23:07:52.067853Z 0 [System] [MY-010116] [Server] C:\Laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld (mysqld 8.0.30) starting as process 4092
 2022-10-09T23:07:52.347925Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2022-10-09T23:07:53.278115Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2022-10-09T23:07:53.322041Z 1 [System] [MY-011090] [Server] Data dictionary upgrading from version '80014' to '80023'.
+2022-10-09T23:07:57.073501Z 1 [System] [MY-013413] [Server] Data dictionary upgrade from version '80014' to '80023' completed.
+mysqld: Table 'mysql.plugin' doesn't exist
+2022-10-09T23:07:57.676183Z 0 [ERROR] [MY-010735] [Server] Could not open the mysql.plugin table. Please perform the MySQL upgrade procedure.
+2022-10-09T23:07:57.680133Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2022-10-09T23:07:57.682494Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2022-10-09T23:07:57.684527Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2022-10-09T23:07:57.686626Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2022-10-09T23:07:57.688645Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2022-10-09T23:07:57.690688Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2022-10-09T23:07:57.692682Z 0 [Warning] [MY-010441] [Server] Failed to open optimizer cost constant tables
+2022-10-09T23:08:00.485621Z 4 [System] [MY-013381] [Server] Server upgrade from '80015' to '80030' started.
+2022-10-09T23:08:06.774007Z 4 [System] [MY-013381] [Server] Server upgrade from '80015' to '80030' completed.
+2022-10-09T23:08:06.848775Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2022-10-09T23:08:06.858421Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2022-10-09T23:08:06.925457Z 0 [Warning] [MY-013829] [Server] Missing data directory for ICU regular expressions: C:\Laragon\bin\mysql\mysql-8.0.30-winx64\lib\private\.
+2022-10-09T23:08:06.983231Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2022-10-09T23:08:06.986072Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2022-10-09T23:08:07.106152Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2022-10-09T23:08:07.106926Z 0 [System] [MY-010931] [Server] C:\Laragon\bin\mysql\mysql-8.0.30-winx64\bin\mysqld: ready for connections. Version: '8.0.30'  socket: ''  port: 3306  MySQL Community Server - GPL.
