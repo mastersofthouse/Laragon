@@ -1,0 +1,9 @@
+php -V
+php -V
+ll
+cd ..
+cd Laragon\
+DEL .git
+DEL .gitattributes 
+ls
+exit
